@@ -8,6 +8,7 @@ export function useWebhookServiceOptions() {
       { label: t`GitHub`, value: 'github' },
       { label: t`GitLab`, value: 'gitlab' },
       { label: t`Bitbucket Data Center`, value: 'bitbucket_dc' },
+      { label: t`Bitbucket Cloud`, value: 'bitbucket_cloud' },
     ],
     [t]
   );
