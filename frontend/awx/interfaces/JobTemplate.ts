@@ -215,6 +215,6 @@ export interface JobTemplate
   webhook_credential: number;
   webhook_url: string;
   webhook_key: string;
-  webhook_service: 'github' | 'gitlab' | 'bitbucket_dc';
+  webhook_service: 'github' | 'gitlab' | 'bitbucket_dc' | 'bitbucket_cloud';
   project: number | null;
 }
